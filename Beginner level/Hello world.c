@@ -1,7 +1,11 @@
 #include<stdio.h>
 int main()
 {
-/* my first program in C */
-printf("Hello, World!");
-return 0;
+int i;
+  while(i<=3)
+  {
+    printf("Hello\n");
+    i++;
+  }
+  return 0;
 }
