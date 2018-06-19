@@ -5,7 +5,7 @@ int main()
 	scanf("%c",&z);
 	if(z>='a'&& z<='z'||z>='A' && z<='Z')
 	{
-		printf("alphabet",z);
+		printf("alphabet");
 	}
 	else
 	{
