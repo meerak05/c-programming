@@ -5,11 +5,11 @@ int main()
 	scanf("%c",&z);
 	if(z=='a'||z=='A'||z=='e'||z=='E'||z=='i'||z=='I'||z=='o'||z=='O'||z=='u'||z=='U')
 	{
-		printf("VOWEL");
+		printf("the given input is even");
 	}
 	else
 	{
-		printf("CONSONANT");
+		printf("the given input is odd");
 	}
 	return 0;
 }
