@@ -2,7 +2,7 @@
 int main()
 {
 int t,n,a;
-int sum=o;
+int sum=0;
 scanf("%d",&a);
 t=a;
 while(a>0)
@@ -12,8 +12,8 @@ while(a>0)
 	sum=sum*10+n;
 }
 if(t==sum)
-	printf("palindrome");
+	printf("yes");
 else
-	printf("not a palindrome");
+	printf("no");
 return 0;
 }
