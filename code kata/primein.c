@@ -13,7 +13,7 @@ scanf("%d%d",&a,&b);
 	
 	}
 	if(count==0)
-		printf("%d",i);
+		printf("%d ",i);
 	}
 return 0;
 }
